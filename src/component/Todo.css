@@ -1,0 +1,62 @@
+.todo-input {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.add-button {
+  padding: 10px;
+  font-size: 1rem;
+  margin: .1rem;
+  background-color: orangered;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Sevillana", cursive;
+  font-weight: bold;
+
+}
+
+.ok-logo {
+  width: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.todoText {
+  /* width: 75%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+
+.clear-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear-button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: orangered;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Sevillana", cursive;
+
+}
+
+.delete-logo {
+  width: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
