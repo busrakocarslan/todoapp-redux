@@ -2,12 +2,13 @@ import React from "react"
 import okLogo from "../assets/ok.png"
 import deleteLogo from "../assets/delete.png"
 import { useDispatch } from "react-redux"
-import { ToogleTodo, clearTodo, deleteTodo } from "../redux/action/todoAction"
+import { toggleTodo, clearTodo, deleteTodo, TOGGLE} from "../redux/action/todoAction"
 
 const TodoItem = ({ completed, text, id }) => {
   const distpach=useDispatch()
+
   const handleToggle = () => {
-    distpach(ToogleTodo(id))
+    distpach(toggleTodo(id, !completed))
     
   }
 
